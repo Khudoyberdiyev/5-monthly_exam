@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+//   opacity: 4;
+}
+body {
+  background-image: url(..//img/library.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+  .wrapper {
+    padding: 0 350px;
+    margin: 0;
+    // opacity: 1;
+
+    .auth-form {
+      width: 400px;
+      height: 50vh;
+      padding: 35px;
+      margin: 280px auto;
+      // color: aliceblue;
+      // border: 2px solid rgba(120, 122, 152, 0.267);
+      border-radius: 12px;
+      background: none;
+      // opacity: 0.7;
+      // background-color: rgb(36, 13, 2);
+      // background-color: blur(255, 255, 255);
+
+      img {
+        // padding: 0 auto;
+        // margin: 0;
+        width: 226px;
+        height: 41px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 20px;
+      }
+      .useinput {
+        color: #fff;
+
+        .icon {
+          width: 24px;
+          height: 24px;
+          color: rgb(251, 251, 251);
+          position: relative;
+          bottom: 35px;
+          left: 7px;
+        }
+
+        input {
+          width: 300px;
+          height: 45px;
+          color: #fff;
+          margin-top: 40px;
+          padding: 0 24px;
+          // text-align: center;
+          background: fixed;
+          border: 2px solid #fff;
+          // font-size: 16px;
+          // font-weight: 500;
+          // font-family: sans-serif;
+          // background-color: rgb(22, 23, 24);
+          // opacity: 0.5;
+         
+        }
+         ::placeholder {
+            color: #fff;
+            position: absolute;
+            font-size: 16px;
+            font-weight: 500;
+            left: 24px;
+
+
+            
+          }
+      }
+
+      .pasinput {
+        color: #fff;
+
+        input {
+          width: 300px;
+          height: 45px;
+          color: #fff;
+          margin-top: 20px;
+          padding: 0 24px;
+          // text-align: center;
+          background: none;
+          border: 2px solid #fff;
+          // font-size: 500;
+          // opacity: 0.5;
+          // border: px solid(rgb 255 255 255);
+        }
+        ::placeholder {
+            color: #fff;
+            position: absolute;
+            font-size: 16px;
+            font-weight: 500;
+            left: 24px;
+
+
+            
+          }
+
+        .icon {
+          width: 24px;
+          height: 24px;
+          color: rgb(255, 255, 255);
+          background: local;
+          position: relative;
+          bottom: 35px;
+          left: 7px;
+        }
+      }
+
+      .checkbox {
+        color: #fff;
+      }
+
+      button {
+        color: rgb(43, 218, 215);
+        background-color: #fff;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        width: 300px;
+        height: 45px;
+        margin-bottom: 35px;
+      }
+      button:hover{
+        background-color: rgb(200, 93, 27);
+        color: #fff;
+      }
+    }
+  }
+}
