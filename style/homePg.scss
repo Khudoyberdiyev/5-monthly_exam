@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -71,7 +72,7 @@
               width: 660px;
               height: 48px;
               padding: 0 37px;
-              border: 2px solid rgb(35, 167, 244);
+              border: 2px solid rgb(55, 3, 165);;
               background-color: rgba(250, 235, 235, 0.1);
               border-radius: 30px;
               outline: none;
@@ -80,8 +81,8 @@
               width: 95%;
             }
             .input:hover {
-              background-color: rgb(168, 224, 241);
-              border: 2px solid rgb(168, 224, 241);
+              background-color: rgb(240, 246, 248);
+              border: 2px solid rgb(20, 20, 120);
               // liner-gradient: rgba(255, 255, 255)
             }
             .search {
@@ -124,7 +125,7 @@
           align-items: center;
           border-top: 2px solid rgb(157, 154, 154);
           border-bottom: 2px solid rgb(157, 154, 154);
-          // position: ;
+          
           button {
             width: 165px;
             height: 34px;
@@ -205,7 +206,7 @@
               height: 431px;
               padding: 15px;
               border: 2px solid rgb(210, 208, 208);
-              // box-shadow: 5px rgb(210, 208, 208);
+              
 
               img {
                 width: 202px;
