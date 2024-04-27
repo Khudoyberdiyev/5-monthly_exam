@@ -75,7 +75,7 @@ const fetchData = async () => {
         });
       });
     });
-    const murodjon = document.querySelector(".murodjon");
+    const azamjon = document.querySelector(".azamjon");
     const moreInfo = document.querySelectorAll("#moreInfo");
     const container = document.querySelector(".container");
     const infoDelete = document.getElementById("info_delete");
